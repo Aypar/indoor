@@ -38,7 +38,13 @@
 <div id='map'></div>
 
 
-<script type="text/javascript" src="/public/custom/map.js"></script>
+<script type="text/javascript" src="/public/src/core/index.js"></script>
+
+<script type="text/javascript" src="/public/src/core/routing/router.js"></script>
+
+<script type="text/javascript" src="/public/src/core/geocoding/geocoder.js"></script>
+
+<script type="text/javascript" src="/public/src/core/navigation/navigator.js"></script>
 
 <script type="text/javascript">
 
@@ -47,6 +53,9 @@
 
 		 CustomMap.init();
 	})
+	CustomMap.GeoCoder.addMarker();
+	CustomMap.Navigator.navigate();
+	CustomMap.Router.route();
 </script>
 
 
