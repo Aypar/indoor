@@ -4,6 +4,7 @@
     "express": "*",
     "redis": "*",
     "underscore": "*",
-    "ejs":"*"
+    "ejs":"*",
+    "seraph":"*"
   }
 }
