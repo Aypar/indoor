@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "redis": "*",
+    "underscore": "*",
+    "ejs":"*"
+  }
+}
